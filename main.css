@@ -112,6 +112,7 @@ button {
 
 
 .sidebar {
+    overflow-y: scroll;
     font-family: TTLakes medium;
     width: 320px;
     height: 100%;
@@ -120,6 +121,10 @@ button {
     flex-direction: column;
     padding: 15px 24px 20px 24px;
     box-shadow: 16px 0 52px 0 rgba(14, 24, 80, 0.2), -2px 0 4px 0 rgba(69, 79, 126, 0.02);
+}
+
+.sidebar::-webkit-scrollbar {
+    width: 0;
 }
 
 
