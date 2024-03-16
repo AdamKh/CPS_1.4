@@ -198,6 +198,11 @@ a.change-lang__link:not(:last-child) {
     margin-right: 7px;
 }
 
+.contacts__number {
+    font-weight: bold;
+    font-size: 24px;
+}
+
 .change-lang__link--active {
     color: #7E7E82;
 }
